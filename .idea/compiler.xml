@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="kazimbarsbay_demo_project" />
+        <module name="simple-cucumber-demo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kazimbarsbay_demo_project" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
